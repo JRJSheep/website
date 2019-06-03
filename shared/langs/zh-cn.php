@@ -60,8 +60,8 @@ $s['newlyAdded'] = '新增的内部版本';
 $s['dateAdded'] = '添加日期';
 
 //known.php
-$s['browseKnown'] = '浏览已知补丁';
-$s['chooseBuild'] = '选择补丁';
+$s['browseKnown'] = '浏览已知版本';
+$s['chooseBuild'] = '选择版本';
 $s['weFoundBuilds'] = '在你的查询中，我们找到了 <b>%d</b> 个内部版本。'; //We have found <b>692</b> builds for your query.
 
 //latest.php
@@ -86,7 +86,7 @@ $s['buildNumber'] = '版本号： %s'; //Build number: 18890.1000
 //selectlang.php
 $s['selectLangFor'] = '选择 %s 的语言'; //Select language for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
 $s['chooseLang'] = '选择语言';
-$s['chooseLangDesc'] = '选择你想要的语言';
+$s['chooseLangDesc'] = '选择你需要的语言';
 $s['allLangs'] = '全语言';
 $s['selLangFiles'] = '文件';
 $s['allFiles'] = '全部文件';
@@ -159,7 +159,7 @@ $s['requestNotSuccessful'] = '请求未成功';
 $s['anErrorHasOccurred'] = '在尝试处理你的请求时发生错误。';
 $s['generatedPackNotAvailable'] = '生成的包不可用';
 $s['generatedPackNotAvailableDesc'] = '你尝试下载的更新没有提供包含有关可用语言，版本和文件的完整信息用以生成包。因此将提供替代包，它可能无法提供正确的信息。如果因此导致下载失败，请等待自动生成的可用包。';
-$s['arm64Warning'] = '你选择的 ARM64 版本 <b>仅与基于 ARM64 的设备兼容</b> ，并且不适用于常规基于 Intel 或 AMD 的 PC。对于 <b>64 位</b> PC，请使用 <b>amd64</b> 版本。对于 <b>32位</b> PC，请使用 <b>x86</b> 版本。如果您确定目标设备是基于 ARM64 的，则可以放心地忽略此消息。';
+$s['arm64Warning'] = '你选择的 ARM64 版本 <b>仅与基于 ARM64 的设备兼容</b> ，并且不适用于常规基于 Intel 或 AMD 的 PC。对于 <b>64 位</b> PC，请使用 <b>amd64</b> 版本。对于 <b>32位</b> PC，请使用 <b>x86</b> 版本。如果你确定目标设备是基于 ARM64 的，则可以放心地忽略此消息。';
 
 //Error messages
 $s['error_ERROR'] = '一般错误。';
@@ -176,10 +176,10 @@ $s['error_ILLEGAL_MINOR'] = '指定的次要/服务版本不正确。';
 $s['error_NO_UPDATE_FOUND'] = '服务器没有返回任何更新。';
 $s['error_XML_PARSE_ERROR'] = '响应 XML 解析失败。 Microsoft 服务器可能存在问题，请稍后再试。';
 $s['error_EMPTY_FILELIST'] = '服务器返回了一个空的文件列表。';
-$s['error_NO_FILES'] = '没有可供您选择的文件。';
+$s['error_NO_FILES'] = '没有可供你选择的文件。';
 $s['error_NOT_FOUND'] = '找不到指定的选择。';
 $s['error_MISSING_FILES'] = '选定的 UUP 集缺少文件。';
-$s['error_NO_METADATA_ESD'] = '没有可供您选择的 ESD 元数据文件。';
+$s['error_NO_METADATA_ESD'] = '没有可供你选择的 ESD 元数据文件。';
 $s['error_UNSUPPORTED_LANG'] = '不支持指定的语言。';
 $s['error_UNSPECIFIED_LANG'] = '没有指定语言。';
 $s['error_UNSUPPORTED_EDITION'] = '不支持指定版本。';
