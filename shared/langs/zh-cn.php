@@ -60,8 +60,8 @@ $s['newlyAdded'] = '新增的内部版本';
 $s['dateAdded'] = '添加日期';
 
 //known.php
-$s['browseKnown'] = '浏览已知补丁';
-$s['chooseBuild'] = '选择补丁';
+$s['browseKnown'] = '浏览已知内部版本';
+$s['chooseBuild'] = '选择内部版本';
 $s['weFoundBuilds'] = '在你的查询中，我们找到了 <b>%d</b> 个内部版本。'; //We have found <b>692</b> builds for your query.
 
 //latest.php
@@ -75,7 +75,7 @@ $s['editionOfPretendedClient'] = '虚构的系统版本';
 $s['skipAheadLabel'] = '跳跃预览通道';
 $s['skipAheadOption'] = '使用跳跃预览通道(仅限快速环)';
 $s['fetchUpdates'] = '获取更新';
-$s['fetchUpdatesInfo'] = '点击 <i>获取更新</i> 按钮将你的请求发送到 Windows Update 服务器。';
+$s['fetchUpdatesInfo'] = '点击<i>获取更新</i>按钮将你的请求发送到 Windows Update 服务器。';
 
 //fetchupd.php
 $s['responseFromServer'] = '来自服务器的响应';
@@ -102,7 +102,7 @@ $s['selectEditionFor'] = '选择 %s 的版本'; //Select edition for Windows 10 
 $s['chooseEdition'] = '选择版本';
 $s['chooseEditionDesc'] = '选择你想要的版本';
 $s['allEditions'] = '全版本';
-$s['selectEditionInfoText'] = '点击 <i>下一步</i> 按钮以打开所选内容的版本摘要页面。';
+$s['selectEditionInfoText'] = '点击<i>下一步</i>按钮以打开所选内容的版本摘要页面。';
 
 //download.php
 $s['summary'] = '摘要';
@@ -190,7 +190,7 @@ $s['error_KEY_NOT_EXISTS'] = '更新信息中不存在指定的密钥。';
 $s['error_UNSPECIFIED_UPDATE'] = '未指定更新 ID。';
 $s['error_INCORRECT_ID'] = '指定的更新 ID 不正确。 请确保指定的更新 ID 正确无误。';
 $s['error_RATE_LIMITED'] = '你受到了限制，请在几秒钟后重试。';
-$s['error_UNSPECIFIED_VE'] = '你尚未选择任何其他版本。如果不想创建其他版本，请选择 <i>使用 aria2 下载并转换</i> 选项。';
+$s['error_UNSPECIFIED_VE'] = '你尚未选择任何其他版本。如果不想创建其他版本，请选择<i>使用 aria2 下载并转换</i>选项。';
 $s['errorNoMessage'] = '错误消息不可用。';
 
 //Languages
